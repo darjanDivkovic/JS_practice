@@ -1,0 +1,38 @@
+* {
+    width: 1000px;
+    height: 1000px;
+
+    
+}
+
+.blackbox {
+
+    margin-left: 10%;
+    margin-top: 10%;
+        
+    width: 100px;
+    height: 100px;
+    
+    border: 10px solid black;
+    
+    
+}
+
+.blackbox-redbox {
+
+    
+    border: 10px solid red;
+
+}
+
+.gluposti {
+
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+
+    position: fixed;
+    margin-left: 10%;
+    margin-top: -5%;
+    
+}
