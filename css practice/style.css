@@ -8,17 +8,19 @@ body {
     min-height: 160px;
     background-color: black;
     widows: 100%;
-    position: relative;
+    
 }
 
 .header-outline {
    
     min-height: 130px;
-    width: 90%;
-    position: relative;
+    width: 97%;
+    position: absolute;
     border: 2px solid white;
     border-radius: 18px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    top: 10px;
+    left: 1vw;
+    
+    
 
 }
