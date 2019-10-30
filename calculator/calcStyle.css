@@ -1,5 +1,6 @@
 :root {
-    --mainGreen : #063D37;
+    --mainGreen: #063D37;
+    --mainRed: #800001;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 .calc-pic {
     position: relative;
     top: 5vh;
-    left: 70%;
+    left: 80%;
     transform: translate(-50%);
     
 }
@@ -45,3 +46,63 @@ button {
     left: 350px;
     top: 390px; 
 }
+
+.calc-child4 {
+    position: fixed;
+    left: 235px;
+    top: 335px; 
+}
+
+.calc-child5 {
+    position: fixed;
+    left: 292px;
+    top: 335px; 
+}
+
+.calc-child6 {
+    position: fixed;
+    left: 350px;
+    top: 335px; 
+}
+
+.calc-child7 {
+    position: fixed;
+    left: 235px;
+    top: 280px; 
+}
+
+.calc-child8 {
+    position: fixed;
+    left: 292px;
+    top: 280px; 
+}
+
+.calc-child9 {
+    position: fixed;
+    left: 350px;
+    top: 280px; 
+}
+
+.calc-child0 {
+    position: fixed;
+    left: 245px;
+    top: 455px; 
+    background-color: var(--mainRed);
+}
+
+.calc-childDot {
+    position: fixed;
+    background-color: var(--mainRed);
+    top: 443px;
+    left: 317px;
+    font-size: 45px;
+}
+
+.calc-childEnter {
+    position: fixed;
+    background-color: var(--mainRed);
+    font-size: 14px;
+    top: 455px;
+    left: 383px;
+}
+
