@@ -1,26 +1,30 @@
-body {
-    margin: 0;
-    padding: 0;
+.parent {
+    background-color: aqua;
+    position: relative;
+    min-height: 200px;
     
 }
 
-.header {
-    min-height: 160px;
-    background-color: black;
-    widows: 100%;
-    
+.child-one {
+    background-color: blueviolet;
+    position: absolute; 
+    min-width: 30px;
+    top: 40px;
+
 }
 
-.header-outline {
-   
-    min-height: 130px;
-    width: 97%;
+.child-two {
+    background-color: crimson;
     position: absolute;
-    border: 4px solid white;
-    border-radius: 18px;
-    top: 10px;
-    left: 1vw;
-    
-    
+    min-width: 30px;
+    top: 40px;
+    left: 60px;
+}
 
+.child-three {
+    background-color: darkgreen;
+    position: absolute;
+    min-width: 30px;
+    top: 40px;
+    left: 140px;
 }

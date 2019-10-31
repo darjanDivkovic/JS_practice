@@ -106,3 +106,12 @@ button {
     left: 383px;
 }
 
+.calc-childPlus {
+    background-color: var(--mainRed);
+    min-width: 5px;
+    min-height: 5px;
+    position: fixed;
+    top: 285px;
+    left: 408px;
+    border-radius: 10px;
+}
