@@ -115,3 +115,34 @@ button {
     left: 408px;
     border-radius: 10px;
 }
+
+.calc-childMinus {
+    background-color: var(--mainRed);
+    min-width: 5px;
+    min-height: 5px;
+    position: fixed;
+    top: 322px;
+    left: 412px;
+    border-radius: 10px;
+}
+
+.calc-childMultiply {
+    background-color: var(--mainRed);
+    min-width: 5px;
+    min-height: 3px;
+    position: fixed;
+    top: 364px;
+    left: 412px;
+    border-radius: 10px;
+}
+
+.calc-childDivide {
+    background-color: var(--mainRed);
+    min-width: 2px;
+    min-height: 2px;
+    position: fixed;
+    top: 405px;
+    left: 409px;
+    border-radius: 10px;
+    font-size: 20px;
+}
