@@ -1,0 +1,21 @@
+IIFE - Imidiately invoked function expression ( istrazi ) 
+const, let & var ! ( istrazi ) 
+
+fun, fun, functions ( yt ) 
+lexical scope / environment
+javascript.info !!! 
+
+event loop - nadji na yt
+
+MATERIJAL :
+Kyle Simpson ( You don't know JS ) / video ako uspijes nac ( placa se ) 
+
+Radi frejmwork, ( React )
+
+Prije toga 
+           - fundamentals JS
+	   - Thruthy falsy values
+	   - JS OOP, koncepti, js.info 
+ 	   - DOM ( pozadina ) - window object
+	   - ES6 Arrown functions, high order functions, callbacks, async await
+	   
