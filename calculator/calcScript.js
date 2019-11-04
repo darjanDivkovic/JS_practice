@@ -1,7 +1,6 @@
-// selecting variables
-let screen = document.querySelector(".calc-text");
-let num1 = document.querySelector(".calc-child1");
-
-// Add event listener
-num1.addEventListener("click", changeScreenNumAdded(this.text));
-
+const numberButtons = document.querySelectorAll("[data-number]");
+const operationButtons = document.querySelectorAll("[data-operation]");
+const equalsButton = document.querySelector("[data-equals]");
+const clearButton = document.querySelector("[data-clear]");
+const previousOperandTextElement = document.querySelector("[data-prevoius-operand]");
+const currentOperandTextElement = document.querySelector("[data-current-operand]");
