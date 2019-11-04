@@ -149,8 +149,20 @@ button {
 }
 
 .calc-text {
-    position: fixed;
-    top: 200px;
-    left: 360px;
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    position : fixed;
+    word-wrap: break-word;
+    word-break: break-all;
     color: white; 
+    left: 290px;
+    top: 180px;
 }
+
+.calc-text .first {
+    font-size: 1.5rem;
+}
+
