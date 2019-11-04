@@ -102,9 +102,21 @@ button {
 .calc-childEnter {
     position: fixed;
     background-color: var(--mainRed);
+    min-width: 20px;
+    min-height: 20px;
     font-size: 14px;
     top: 455px;
     left: 383px;
+}
+
+.calc-childClear {
+    position: fixed;
+    background-color: var(--mainRed);
+    min-width: 16px;
+    min-height: 20px;
+    font-size: 13px;
+    top: 480px;
+    left: 382px;
 }
 
 .calc-childPlus {
