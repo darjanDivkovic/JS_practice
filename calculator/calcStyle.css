@@ -149,6 +149,9 @@ button {
 }
 
 .calc-text {
+    
+    height: 160px;
+    width: 210px;
     grid-column: 1 / -1;
     display: flex;
     flex-direction: column;
@@ -158,8 +161,8 @@ button {
     word-wrap: break-word;
     word-break: break-all;
     color: white; 
-    left: 290px;
-    top: 180px;
+    left: 230px;
+    top: 100px;
 }
 
 .calc-text .first {
