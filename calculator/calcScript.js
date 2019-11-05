@@ -15,7 +15,7 @@ delete() {
 }
 
 appendNumber(number) {
-    this.currentOperand = number;
+    this.currentOperand = this.currentOperand.toString() + number.toString();
 }
 
 chooseOperation(operation) {
