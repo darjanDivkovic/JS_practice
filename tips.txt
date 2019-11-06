@@ -13,7 +13,7 @@ Kyle Simpson ( You don't know JS ) / video ako uspijes nac ( placa se )
 Radi frejmwork, ( React )
 
 Prije toga 
-           - fundamentals JS
+           - fundamentals JS	DONE !
 	   - Thruthy falsy values
 	   - JS OOP, koncepti, js.info 
  	   - DOM ( pozadina ) - window object
