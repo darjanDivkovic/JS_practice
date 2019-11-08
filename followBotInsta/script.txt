@@ -1,13 +1,47 @@
+let counter = 0;
 
+// Kad udje nakon tri sekunde followa i vrati se nazad
 
-setInterval( followuj() , 3000 );
+// setInterval( followuj() , 3000 );
 
 function followuj() {
 
 	let followerIme = document.getElementsByClassName("_7UhW9")[0];
 	let followButton = document.getElementsByClassName("_5f5mN")[0];
 
-	followButton.click();
-	console.log(followerIme.textContent + " Zapracen ! ");
+	try {
+ 	 	followButton.click();
+		console.log(followerIme.textContent + " Zapracen ! ");
+	
+	}
+	catch(error) {
+  	console.error(error);
+	}
 
+	goBack();
+
+	
+
+}
+
+function goBack() {
+  window.history.back();
+}
+
+function clickOnNextTarget() {
+	
+	// Select next target
+	let targetAnker = document.getElementsByClassName("FPmhX")[counter];
+
+	// Increase target picker ( counter ) 
+	counter++;
+	
+	// Click on it 
+	targetAnker.click();
+	
+	}
+
+for(let i = 0; i < 160; i++){
+	clickOnNextTarget();
+	followuj();
 }
