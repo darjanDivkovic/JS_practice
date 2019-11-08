@@ -1,0 +1,13 @@
+
+
+setInterval( followuj() , 3000 );
+
+function followuj() {
+
+	let followerIme = document.getElementsByClassName("_7UhW9")[0];
+	let followButton = document.getElementsByClassName("_5f5mN")[0];
+
+	followButton.click();
+	console.log(followerIme.textContent + " Zapracen ! ");
+
+}
