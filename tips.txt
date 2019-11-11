@@ -19,3 +19,5 @@ Prije toga
  	   - DOM ( pozadina ) - window object
 	   - ES6 Arrown functions, high order functions, callbacks, async await
 	   
+
+https://www.youtube.com/watch?v=jw4exv4qv2E - Ovo kao projekat ! i jos napravit live preview na drugoj stranici onoga sto bot radi i snimat to negdje.
