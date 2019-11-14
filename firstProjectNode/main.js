@@ -1,5 +1,3 @@
-function pozdrav(name){
-    console.log("Selam "+name);
-}
+let messageModule = require("./message");
 
-pozdrav("coda");
+messageModule.getMessage("Darjan!");
